@@ -1,89 +1,202 @@
-# NETWORKWALKS-WEEK3-JOHN-THE-RIPPER-TEJAL-PATIL
- Week 3 – Password Cracking with John the Ripper (JTR)
+# Week 3 – Password Cracking | Network Walks Internship
 
-1. Project Overview
+**Student Name:** Tejal Patil  
+**Internship:** Network Walks – Cybersecurity & Ethical Hacking  
+**Week:** 03  
+**Project Category:** Password Security and Ethical Hacking
 
-As part of my Week 3 internship task at Network Walks, I performed a practical exercise on password security using John the Ripper (JTR) on Kali Linux.
+## Project Overview
 
-John the Ripper is a password security auditing tool used by cybersecurity professionals to evaluate password strength. It works with different types of password hashes and helps demonstrate how weak passwords can be vulnerable to guessing attacks.
+As part of Week 3 of my Network Walks cybersecurity internship, I completed two practical modules based on password security and password recovery.
 
-The objective of this project was to understand how password hashes are handled and how JTR can be used in an authorised lab environment to test the strength of a password-protected PDF file.
+The projects helped me understand how password-protected PDF files are handled, how password hashes are extracted, and how security tools can be used to evaluate password strength in an authorised lab environment.
 
- 2. Objectives
+Both practicals were performed using different tools and operating systems.
 
-- Understand the working of John the Ripper.
-- Learn the difference between encryption and hashing.
-- Understand how password-protected PDF files are secured.
-- Explore the role of password hashes in security testing.
-- Perform a controlled password recovery exercise using Kali Linux.
-- Understand the importance of creating strong passwords.
+## Projects Completed
 
- 3. Tools and Technologies Used
+### Module 1 – Password Cracking with John the Ripper (JTR)
 
-| Tool | Purpose |
-|---|---|
-| Kali Linux | Operating system used for the practical |
-| John the Ripper | Password security testing tool |
-| Terminal | Interacting with the JTR utility |
-| PDF file | Password-protected lab sample |
-| PDF hash extraction utility | Understanding PDF hash formats |
+- **Operating System:** Kali Linux
+- **Tool:** John the Ripper (JTR)
+- **Interface:** Kali Linux Terminal
+- **Objective:** Understand PDF password hash extraction and password recovery using John the Ripper.
 
-4. Practical Implementation
+In this practical, I explored John the Ripper in Kali Linux and learned how it can be used for password security testing. I also studied the process of extracting a password hash from a protected PDF and analysing it using JTR.
 
-I performed this project using Kali Linux, where John the Ripper is available through the Kali environment.
+### Module 2 – Password Cracking with NetworkWalks Tools
 
-The practical involved the following stages:
+- **Operating System:** Windows
+- **Tools:** NetworkWalks Hash Calculator and Password Cracker
+- **Interface:** Web Browser
+- **Objective:** Understand password hash extraction and recovery using NetworkWalks online tools.
 
-Step 1 – Environment Preparation
+In this practical, I used the NetworkWalks Hash Calculator to obtain the hash from the provided password-protected PDF. I then used the NetworkWalks Password Cracker to perform the authorised lab exercise and verify the PDF access.
 
-I started by opening my Kali Linux environment and checking the availability of John the Ripper.
 
-Step 2 – Understanding the PDF File
+## Learning Objectives
 
-I worked with the password-protected PDF provided for the internship exercise to understand how document password protection works.
+- Understand password hashing and encryption.
+- Learn how password-protected PDF files work.
+- Understand the role of hash extraction.
+- Explore John the Ripper in Kali Linux.
+- Learn to use NetworkWalks online security tools.
+- Understand the risks associated with weak passwords.
+- Improve practical knowledge of ethical hacking.
 
-Step 3 – Hash Extraction
+# Project Module 1 – Password Cracking with John the Ripper (JTR)
 
-I studied how a protected PDF password is represented in a hash format that can be used for authorised security testing.
+**Name:** Tejal Patil  
+**Operating System:** Kali Linux  
+**Tool:** John the Ripper (JTR)  
+**Internship:** Network Walks  
+**Week:** 03
 
-Step 4 – Hash File Preparation
+## 1. Introduction
 
-I understood the importance of preparing the extracted hash in the correct format for analysis.
+John the Ripper (JTR) is a widely used password security auditing tool. It helps cybersecurity professionals evaluate password strength by analysing supported password hashes.
 
-Step 5 – John the Ripper Analysis
+For this practical, I used Kali Linux, where John the Ripper is available directly. The objective was to understand how password hashes from a protected PDF can be analysed in an authorised lab environment.
 
-I used John the Ripper in the Kali Linux terminal for the password recovery exercise in the authorised lab environment.
+## 2. Objectives
 
-Step 6 – Result Verification
+- Understand the basic functionality of John the Ripper.
+- Explore JTR in the Kali Linux terminal.
+- Understand PDF password hash extraction.
+- Learn about password recovery and password strength.
+- Understand the importance of secure passwords.
 
-I checked the practical outcome against the provided lab PDF and documented the result.
+## 3. Tools Used
 
- 6. Key Learnings
+- Kali Linux
+- John the Ripper
+- Terminal
+- Authorised password-protected PDF lab file
 
-Through this project, I learned:
+## 4. Practical Workflow
 
-- The basic working of John the Ripper.
-- How password hashes are used in security testing.
-- The importance of password complexity.
-- How Kali Linux supports cybersecurity testing.
-- How password security can be evaluated in a controlled environment.
-- The importance of using authorised files and systems during security testing.
+**Step 1 – Kali Linux Environment**
 
- 7. Challenges and Observations
+I started by opening my Kali Linux environment and preparing the terminal for the practical.
 
-During this practical, I focused on understanding the relationship between PDF password protection and password hashes.
+**Step 2 – John the Ripper**
 
-Some important observations included:
+I checked the availability of John the Ripper and explored its basic functionality.
 
-- Understanding the difference between an encrypted PDF and its extracted hash.
-- Ensuring that the hash data was in the expected format.
-- Becoming familiar with the Kali Linux terminal environment.
-- Understanding that password recovery time can depend on password complexity and the available resources.
+**Step 3 – PDF Hash Extraction**
 
- 8. Conclusion
+I studied the PDF hash extraction process using the provided lab document.
 
-This project gave me practical exposure to password security testing using John the Ripper on Kali Linux.
+**Step 4 – Hash Analysis**
 
-It helped me understand how password hashes are analysed and why using strong, unique passwords is important for protecting digital information.
+I used the extracted hash as input for the John the Ripper practical.
 
-Overall, this task improved my understanding of ethical hacking concepts and strengthened my practical knowledge of cybersecurity tools.
+**Step 5 – Result Verification**
+
+I reviewed the practical output and checked the result against the authorised PDF sample.
+
+## 5. Screenshots
+
+The screenshots folder contains evidence from my Kali Linux practical, including:
+
+1. Kali Linux environment.
+2. John the Ripper availability.
+3. PDF hash extraction.
+4. John the Ripper analysis.
+5. Final result verification.
+
+## 6. Key Learnings
+
+- Learned the basic working of John the Ripper.
+- Understood the relationship between protected PDF files and password hashes.
+- Gained familiarity with Kali Linux.
+- Learned about password security testing.
+- Understood the importance of strong and unique passwords.
+
+## 7. Conclusion
+
+This practical helped me gain hands-on exposure to John the Ripper on Kali Linux. It improved my understanding of password security, hash analysis, and the role of password auditing tools in cybersecurity.
+
+
+# Project Module 2 – Password Cracking with NetworkWalks Tools
+
+## 1. Introduction
+
+This practical focused on password security using two online tools developed by NetworkWalks.
+
+The Hash Calculator is used to extract the password hash from a protected PDF, while the Password Cracker is used to perform the password recovery exercise.
+
+I performed this practical on Windows using a web browser.
+
+## 2. Objectives
+
+- Understand the concept of password hashing.
+- Learn how to extract hashes from protected PDF files.
+- Explore the NetworkWalks Hash Calculator.
+- Understand the working of the NetworkWalks Password Cracker.
+- Learn why strong passwords are important.
+
+## 3. Tools Used
+
+- Windows Operating System
+- Web Browser
+- NetworkWalks Hash Calculator
+- NetworkWalks Password Cracker
+- Authorised PDF lab sample
+
+## 4. Practical Workflow
+
+**Step 1 – Preparing the Lab File**
+
+I prepared the password-protected PDF supplied for the internship practical.
+
+**Step 2 – Opening the Hash Calculator**
+
+I accessed the NetworkWalks Hash Calculator through the browser.
+
+Website: https://networkwalks.com/hash-calculator/
+
+**Step 3 – Hash Extraction**
+
+I used the provided PDF sample to understand how the Hash Calculator extracts its password hash.
+
+**Step 4 – Opening the Password Cracker**
+
+I accessed the NetworkWalks Password Cracker.
+
+Website: https://networkwalks.com/password-cracker/
+
+**Step 5 – Password Analysis**
+
+I used the extracted hash in the authorised lab exercise and observed the tool's output.
+
+**Step 6 – PDF Verification**
+
+I checked the result by opening the provided PDF and verifying the outcome.
+
+## 5. Screenshots
+
+The Screenshots folder contains evidence of:
+
+1. Windows working environment.
+2. NetworkWalks Hash Calculator.
+3. PDF hash extraction.
+4. NetworkWalks Password Cracker.
+5. Final PDF verification.
+
+## 6. Key Learnings
+
+- Understood the basics of password hashing.
+- Learned how hashes can be extracted from protected PDF files.
+- Explored NetworkWalks online cybersecurity tools.
+- Understood the relationship between password complexity and security.
+- Gained practical exposure to browser-based security testing.
+
+## 7. Conclusion
+
+This practical helped me understand password hash extraction and password recovery using NetworkWalks tools on Windows.
+
+It also highlighted the importance of creating strong passwords to protect personal and professional information.
+
+
+
